@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body, html{
-    background-color: darkgray;
+    background-color: rgba(177, 172, 172, 0.915);
     height: 100vh;
     width: 100vw;
 }
@@ -28,10 +28,13 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width 0.3s height 0.3s;
+    transition-timing-function:ease ;
 }
 section>div#imagem{
     display: block;
-    background:darkgrey url(../imagens/galaxia.jpg) no-repeat;
+    background: rgba(177, 172, 172, 0.915) url(../imagens/galaxia.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 
